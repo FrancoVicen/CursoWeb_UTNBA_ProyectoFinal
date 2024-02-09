@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imgs/logo.png" type="image/png">
+    <link rel="stylesheet" href="../style.css">
+    <title>Proyecto-Final</title>
+</head>
+<body>
+    <nav>
+
+        <a href="../index.html">
+            <svg  width = "200" height="80">
+                <!-- pantalla de la computadora -->
+                <rect  class="compu1" x="30" y="10" width="70" height="45" rx="5" fill="#F0E9D2"></rect>
+
+                <rect class="compu2" x="35" y="15" width="60" height="35" rx="5"  fill="#495579"></rect>
+
+                <!-- teclado de la computadora - points x y -->
+                <polygon  class="compu1" points="43 60, 87 60, 110 77, 10 77" fill="#F0E9D2"></polygon>
+        
+                <!-- points x y -->
+                <polygon class="compu2" points="44 63, 85 63, 99 73, 24 73" fill="#495579" ></polygon>
+            </svg>
+        </a>
+        
+        <ul>
+          <li>
+              <a class="link" href="./historia.html">HISTORIA</a>
+          </li>
+          <li>
+              <a class="link" href="./juego.html">JUGUEMOS</a>
+          </li>
+        </ul>
+        
+      </nav>
+
+      <header>
+
+         <h1>JUGUEMOS UN POCO</h1>  
+
+      </header>
+      
+      <main class="contenedor_juego">
+
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+        
+        <div class="contenedor_texto"> 
+
+           <section class="card_play card_soltar" >
+               <p>Arrastre y suelte la imagen aquí</p>
+           </section>
+   
+           <section class="card_play card_soltar" >
+               <p>Arrastre y suelte la imagen aquí</p>
+           </section>
+   
+           <section class="card_play card_soltar" >
+               <p>Arrastre y suelte la imagen aquí</p>
+           </section>
+
+        </div>
+        
+        <div class="contenedor_img">
+
+           <section class="card_play card_img">
+               <img src="../imgs/rompe2.png" alt="Imagen parte del rompe cabezas, muestra figuras historicas y la frase 'O PARTE DE LA HIST'">
+           </section>
+
+           <section class="card_play card_img" >
+               <img src="../imgs/Rompe1.png" alt="Imagen parte del rompe cabezas, muestra figuras historicas y la frase 'SIEND'">
+           </section>
+
+           <section class="card_play  card_img">
+               <img src="../imgs/Rompe3.png" alt="Imagen parte del rompe cabezas, muestra figuras historicas y la frase 'ORIA'">
+           </section>
+
+        </div>
+
+        <button class="btn_reiniciar">Reiniciar</button>
+        
+      </main>
+
+      <!-- no puse footer en esta hoja html porque en la pág. web a copiar no estaba puesto -->
+
+    <script src="../juguemos_rompecabezas.js"></script>
+</body>
+</html>
